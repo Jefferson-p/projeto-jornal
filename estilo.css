@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Cow' ;
+    src: url('aliens_and_cows/aliens\ and\ cows_trial.ttf') format('truetype');
+}
+
+:root {
+    --cor1: #800E0E;
+    --fundo: #FFC099;
+    --title: Cow, 'Times New Roman', Times, serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(167, 167, 167);
+}
+
+header {
+    background-color: var(--fundo);
+    height: 100px;
+}
+
+header img {
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: Cow, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: var(--cor1);
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+nav > a:hover {
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+}
+
+nav {
+    display: inline-block;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+#img {
+    background-image: url("imagens/Neve.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin: auto;
+}
+
+img {
+    height: 350px;
+    
+}
+
+section img {
+margin: auto;
+display: block;
+padding-top: 30px;
+}
+
+h1 {
+    font-family: var(--title);
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding: 20px;
+}
