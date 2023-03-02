@@ -138,6 +138,51 @@ h2 {
 }
 
 
+#resenha {
+    background-image: url('imagens/monge/resenha2.jpg');
+    background-size: cover;
+    display: block;
+    max-width: 470px;
+    margin: auto;
+    max-height: 270px;
+    min-height: 170px;
+    min-width: 370px;
+    padding: 20px;
+
+}
+
+#resenha  h2{
+    color: white;
+    font-size: 4.5em;
+    font-family: var(--title);
+
+    padding-bottom: 1px;
+}
+#resenha  h3 {
+    font-size: 2em;
+    color: var(--fundo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 6px;
+    font-weight: 600;
+}
+
+#resenha h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
+    padding-left: 7px;
+    font-weight: 400;
+}
+
+#caixa {
+    background-color: rgba(0, 0, 0, 0.533);
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
 footer {
     background-color: var(--cor1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
