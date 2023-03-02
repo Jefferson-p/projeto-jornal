@@ -24,8 +24,6 @@ header {
     background-color: var(--fundo);
     height: 100px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.174);
-    display: block;
-    position: sticky;
 }
 
 header img {
@@ -138,6 +136,7 @@ h2 {
     font-weight: lighter;
     padding: 0px 0px 20px 0px;
 }
+
 
 footer {
     background-color: var(--cor1);
