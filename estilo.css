@@ -81,9 +81,9 @@ main {
     left: 55%;
     top: 17%;
     box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.071);
-    padding: 0px;
     width: 200px;
     margin: auto;
+    
 }
 
 main img {
@@ -141,7 +141,7 @@ h2 {
 }
 
 hr {
-    margin: 50px;
+    padding: 50px;
 }
 
 aside {
