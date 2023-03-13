@@ -74,15 +74,16 @@ main {
     background-attachment: fixed;
     background-position: center top;
     box-shadow: inset 0px 4px rgba(0, 0, 0, 0.071);
+    margin: auto;
 }
 
 #img img {
     position: absolute;
     left: 55%;
     top: 17%;
-    box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.071);
     width: 200px;
     margin: auto;
+    padding: 1px;
     
 }
 
